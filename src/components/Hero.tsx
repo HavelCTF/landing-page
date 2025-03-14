@@ -15,34 +15,19 @@ export const Hero = () => {
         <AnimatedGradientTextDemo/>
       </div>
       <div className="flex justify-center mt-8 ">
-      <div className="inline-flex relative">
-      <h1 className='text-7xl sm:text-9xl font-bold tracking-tightner text-center inline-flex'>Eldora UI <br/> is more</h1>
-      <motion.div className='absolute right-[478px] top-[108px] hidden sm:inline'
-      drag
-      dragSnapToOrigin
-
-      >
-      <Image src={CursorImage} alt="cursor" height={200} width={200} className='max-w-none' draggable="false"/>
-      </motion.div>
-      <motion.div className='absolute left-[498px] top-[56px] hidden sm:inline'
-      drag
-      dragSnapToOrigin
-      >
-      <Image src={MessageImage} alt="cursor"  height={200} width={200} className='max-w-none' draggable="false"/>
-      </motion.div>
+        <div className="inline-flex relative">
+          <h1 className='text-7xl sm:text-9xl font-bold tracking-tightner text-center inline-flex'>Havel CTF, <br/> we did it for you</h1>
+        </div>
       </div>
-      </div>
-      <div className="flex justify-center">
-      <p className='text-xl text-center mt-8 max-w-md'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod dicta, nisi autem dignissimos consequatur? Unde saepe eius nam. Minima at quaerat non quae qui consequatur hic nam neque earum.</p>
+      <div className="flex justify-center mb-40">
+        <p className='text-xl text-center mt-8 max-w-lg'>A CTF event management platform, allowing the hosting and network interfacing, while offering an intuitive administration UI and simplified deployment tools.</p>
       </div>
       <div className="flex justify-center mt-8">
-      <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Get for free</button>
+        <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>
+          See pricing
+        </button>
       </div>
-
-
     </div>
-    
-
     </div>
   )
 };

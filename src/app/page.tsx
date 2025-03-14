@@ -18,13 +18,13 @@ export default function Home() {
       <Navbar />
       <Hero />
       <LogoTicker />
-      
+
       <Features />
-      
+
       <ProductShowcase />
       <FAQs />
       <Pricing/>
-     
+
       <CallToAction />
       </div>
       <Footer />
