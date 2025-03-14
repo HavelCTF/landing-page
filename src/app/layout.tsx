@@ -6,8 +6,8 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saas Template - EldoraUI",
-  description: "Template for saas applications with dark theme",
+  title: "Havel CTF",
+  description: "A CTF event management platform, allowing the hosting and network interfacing, while offering an intuitive administration UI and simplified deployment tools."
 };
 
 export default function RootLayout({
